@@ -7,9 +7,7 @@ export default function HomePage() {
       <header className="hero">
         <div className="hero-inner">
           <span className="badge">{CITY}</span>
-          <div className="logo-box">
-            <img className="logo-img" src="/tuma-logo.jpg" alt={BRAND} />
-          </div>
+          <img className="logo-img" src="/tuma-logo.png" alt={BRAND} />
           <p className="tagline">
             Occupé ? On récupère et on livre votre colis à votre place.
             Gagnez du temps, on s'occupe du trajet.

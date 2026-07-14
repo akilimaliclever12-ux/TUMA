@@ -62,7 +62,7 @@ export default async function AdminPage({ searchParams }) {
     <main className="admin">
       <div className="admin-top">
         <div className="admin-brand">
-          <img className="admin-logo" src="/tuma-logo.jpg" alt={BRAND} />
+          <img className="admin-logo" src="/tuma-logo.png" alt={BRAND} />
           <h1>Opérateur</h1>
         </div>
         <form action={logout}>
