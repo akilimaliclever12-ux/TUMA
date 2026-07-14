@@ -5,8 +5,8 @@
   --border: #2a3a48;
   --text: #eaf0f6;
   --muted: #9db0c2;
-  --brand: #16a34a;
-  --brand-dark: #128a3e;
+  --brand: #2472f5;
+  --brand-dark: #1a5bd1;
   --wa: #25d366;
   --error: #f87171;
   --radius: 14px;
@@ -43,6 +43,15 @@ main { max-width: 560px; margin: 0 auto; padding: 0 16px 48px; }
   margin: 14px 0 8px;
   letter-spacing: -.5px;
 }
+.logo-box {
+  background: #fff;
+  border-radius: 20px;
+  padding: 18px 28px;
+  display: inline-block;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .30);
+  margin: 6px 0 12px;
+}
+.logo-img { display: block; width: 190px; max-width: 62vw; height: auto; }
 .tagline { color: var(--muted); font-size: 16px; line-height: 1.5; margin: 0 auto; max-width: 420px; }
 .pills { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 18px; }
 .pill {
@@ -149,6 +158,8 @@ legend { padding: 0 8px; font-size: 13px; color: var(--brand); text-transform: u
 .admin { padding-top: 24px; }
 .admin-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
 .admin-top h1 { font-size: 20px; margin: 0; }
+.admin-brand { display: flex; align-items: center; gap: 10px; }
+.admin-logo { height: 30px; width: auto; background: #fff; border-radius: 8px; padding: 4px 8px; display: block; }
 
 .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 18px; }
 .stat {

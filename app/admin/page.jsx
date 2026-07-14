@@ -61,7 +61,10 @@ export default async function AdminPage({ searchParams }) {
   return (
     <main className="admin">
       <div className="admin-top">
-        <h1>{BRAND} · Opérateur</h1>
+        <div className="admin-brand">
+          <img className="admin-logo" src="/tuma-logo.jpg" alt={BRAND} />
+          <h1>Opérateur</h1>
+        </div>
         <form action={logout}>
           <button className="btn ghost small">Déconnexion</button>
         </form>
